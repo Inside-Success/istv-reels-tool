@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: inside-success-reels-api
+    env: docker
+    autoDeploy: true
+    healthCheckPath: /api/health
+    envVars:
+      - key: REVAI_API_KEY
+        sync: false
+      - key: CLAUDE_API_KEY
+        sync: false
+      - key: FRONTEND_ORIGIN
+        sync: false
+      - key: JOB_RETENTION_SECONDS
+        value: "21600"

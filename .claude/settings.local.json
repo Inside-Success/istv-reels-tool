@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cd \"c:\\\\Users\\\\91917\\\\OneDrive\\\\Desktop\\\\istv- reels tool\"; Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"cd 'c:\\\\Users\\\\91917\\\\OneDrive\\\\Desktop\\\\istv- reels tool'; streamlit run app.py\")"
+    ]
+  }
+}
