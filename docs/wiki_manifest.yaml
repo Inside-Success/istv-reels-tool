@@ -1,7 +1,0 @@
-version: 1
-project: istv-reels-tool
-publish:
-  - path: README.md
-    type: ProjectOverview
-    title: Istv Reels Tool Overview
-    tags: [inside-success, research-system]
