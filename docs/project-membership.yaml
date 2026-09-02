@@ -1,0 +1,14 @@
+schema_version: 1.0.0
+project_id: project-istv-reels-tool
+display_name: ISTV Reels Tool
+context_epoch: 1
+revision_policy:
+  development: moving_checkout
+  evidence: exact_revision
+repositories:
+  - repository_id: istv-reels-tool
+    role: primary
+    workspace: default
+    authority_entrypoints:
+      - README.md
+    contract_seams: []
